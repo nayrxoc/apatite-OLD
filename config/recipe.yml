@@ -25,43 +25,10 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       - phosh
-      - phoc
       - squeekboard
-      - NetworkManager-libnm
-      - cairo
-      - callaudiod
-      - evince-libs
-      - evolution-data-server
-      - fribidi
-      - gcr3
-      - gcr3-base
-      - gdk-pixbuf2
-      - glib2
-      - glibc
-      - gnome-desktop3
-      - gnome-session
-      - gnome-shell
-      - gtk3
-      - gtk4
-      - hicolor-icon-theme
-      - iio-sensor-proxy
-      - json-glib
-      - lato-fonts
-      - libadwaita
-      - libfeedbackd
-      - libgcc
-      - libgudev
-      - libhandy
-      - libical-glib
-      - libsecret
-      - libwayland-client
-      - pam-libs
-      - pango
-      - polkit-libs
-      - pulseaudio-libs
-      - pulseaudio-libs-glib2
-      - systemd-libs
-      - upower-libs
+      - gnome-terminal
+      - gnome-software
+      - nautilus
 
     remove:
       - firefox # default firefox removed in favor of flatpak
