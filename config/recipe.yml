@@ -27,6 +27,42 @@ modules:
       - phosh
       - phoc
       - squeekboard
+      - NetworkManager-libnm
+      - cairo
+      - callaudiod
+      - evince-libs
+      - evolution-data-server
+      - fribidi
+      - gcr3
+      - gcr3-base
+      - gdk-pixbuf2
+      - glib2
+      - glibc
+      - gnome-desktop3
+      - gnome-session
+      - gnome-shell
+      - gtk3
+      - gtk4
+      - hicolor-icon-theme
+      - iio-sensor-proxy
+      - json-glib
+      - lato-fonts
+      - libadwaita
+      - libfeedbackd
+      - libgcc
+      - libgudev
+      - libhandy
+      - libical-glib
+      - libsecret
+      - libwayland-client
+      - pam-libs
+      - pango
+      - polkit-libs
+      - pulseaudio-libs
+      - pulseaudio-libs-glib2
+      - systemd-libs
+      - upower-libs
+
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
@@ -37,8 +73,8 @@ modules:
                   # in your custom.just (added by default) or local justfile
       - nix-installer # shell shortcuts for determinate system's nix installers
       - ublue-os-wallpapers
-      # - ublue-update # https://github.com/ublue-os/ublue-update
-      # - dconf-update-service # a service unit that updates the dconf db on boot
+      - ublue-update # https://github.com/ublue-os/ublue-update
+      - dconf-update-service # a service unit that updates the dconf db on boot
       # - devpod # https://devpod.sh/ as an rpm
 
 
