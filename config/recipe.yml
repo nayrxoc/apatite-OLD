@@ -11,7 +11,7 @@ modules:
   - from-file: module-shared-rpm-ostree.yml
   - type: rpm-ostree
     repos:
-    install:  
+    install:
       - gnome-console
       - gnome-software
       - nautilus
