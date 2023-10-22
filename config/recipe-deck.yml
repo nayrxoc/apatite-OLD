@@ -1,0 +1,21 @@
+# image will be published to ghcr.io/<user>/<name>
+name: deck-apatite
+# description will be included in the image's metadata
+description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/bazzite-deck-gnome
+image-version: latest # latest is also supported if you want new updates ASAP
+
+# module configuration, executed in order
+# you can include multiple instances of the same module
+modules:
+  - fromfile: module-shared-rpm-ostree.yml
+  - fromfile: module-shared-files.yml
+  - type: rpm-ostree
+    repos:
+    install:
+    remove:
+  - fromfile: module-shared-bling.yml
+  - fromfile: module-shared-yafti.yml
+  - fromfile: module-shared-scripts.yml
