@@ -10,14 +10,7 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 modules:
   - fromfile: module-shared-files.yml
   - fromfile: module-shared-rpm-ostree.yml
-  - type: rpm-ostree
-    repos:
-    install:
-      - gnome-console
-      - gnome-software
-      - nautilus
-    remove:
   - fromfile: module-shared-bling.yml
   - fromfile: module-shared-yafti.yml
-
+  - from-file: module-shared-default-flatpaks.yml
   - fromfile: module-shared-scripts.yml
