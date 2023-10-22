@@ -1,5 +1,10 @@
 ublue_variants:
-  - label: nayrxoc/apatite
+  - label: nayrxoc/base-apatite
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: apatite
+      - label: base-apatite
+  - label: ublue-os/deck-apatite
+    ks: /kickstart/ublue-os-deck.ks
+    flavors:
+      - label: deck-apatite
+        info: Apatite (Steam Deck & HTPC Edition)
