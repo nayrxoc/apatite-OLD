@@ -1,7 +1,7 @@
 
 # Apatite
 
-Apatite is an OCI image that allows for the use of the [Phosh](https://github.com/agx/phosh) DE. 
+Apatite is WIP OCI image that allows for the use of the [Phosh](https://github.com/agx/phosh) DE. 
 
 [![build-ublue](https://github.com/nayrxoc/apatite/actions/workflows/build.yml/badge.svg)](https://github.com/nayrxoc/apatite/actions/workflows/build.yml)
 ## Base
