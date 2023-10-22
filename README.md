@@ -13,6 +13,7 @@ Apatite is built from [ublue-os/main](https://github.com/ublue-os/main) for its 
 - Phosh Desktop
 - uBlue First Boot Experience
 - All the other goodies you get with Fedora Cloud Native :)
+- Bazzite-Arch Distrobox for Deck
 
 ### To-do
 
