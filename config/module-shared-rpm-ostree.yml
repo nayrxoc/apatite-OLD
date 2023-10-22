@@ -4,6 +4,3 @@ repos:
 install:
   - phosh
   - squeekboard
-  - gnome-console
-  - gnome-software
-  - nautilus
