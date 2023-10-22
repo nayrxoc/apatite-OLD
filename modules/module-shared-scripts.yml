@@ -1,0 +1,4 @@
+type: script
+scripts:
+  - signing.sh
+  - enablephosh.sh
