@@ -6,6 +6,21 @@ Apatite is a WIP OCI image that allows for the use of the [Phosh](https://github
 [![build-ublue](https://github.com/nayrxoc/apatite/actions/workflows/build.yml/badge.svg)](https://github.com/nayrxoc/apatite/actions/workflows/build.yml)
 ## Base
 Apatite is built from [ublue-os/main](https://github.com/ublue-os/main) for its base build, using [Fedora](https://fedoraproject.org/) technology.
+
+### Features
+
+- Wayland Compositor
+- Phosh Desktop
+- uBlue First Boot Experience
+- All the other goodies you get with Fedora Cloud Native :)
+
+### To-do
+
+- Waydroid on Base
+- Game Mode on Deck
+- Bazzite First Boot Experience on Deck
+- Much more!!
+
 ### Installation
 To rebase an existing Silverblue/Kinoite installation to the latest build:
 
