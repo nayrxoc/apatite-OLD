@@ -10,12 +10,9 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - fromfile: ../modules/module-shared-rpm-ostree.yml
-  - fromfile: ../modules/module-shared-files.yml
-  - type: rpm-ostree
-    repos:
-    install:
-    remove:
-  - fromfile: ../modules/module-shared-bling.yml
-  - fromfile: ../modules/module-shared-yafti.yml
-  - fromfile: ../modules/module-shared-scripts.yml
+  - from-file: module-shared-rpm-ostree.yml
+  - from-file: module-shared-files.yml
+  - from-file: module-shared-bling.yml
+  - from-file: module-shared-yafti.yml
+  - from-file: module-shared-default-flatpaks.yml
+  - from-file: module-shared-scripts.yml
