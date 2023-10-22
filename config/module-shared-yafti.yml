@@ -1,5 +1,2 @@
 type: yafti             
 custom-flatpaks:
-  - Calls: org.gnome.Calls
-  - Chatty: sm.puri.Chatty
-  - Contacts: org.gnome.Contacts
