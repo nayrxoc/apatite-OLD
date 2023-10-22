@@ -48,13 +48,12 @@ modules:
   - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
                 #  will be installed and set up
     custom-flatpaks: # this section is optional
-      - Web: org.gnome.Epiphany
-      - Text Editor: org.gnome.TextEditor
-      - Extension Manager: com.mattjakeman.ExtensionManager
+      - Calls: org.gnome.Calls
+      - Chatty: sm.puri.Chatty
+      - Contacts: org.gnome.Contacts
 
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
       - enablephosh.sh
-      - suspendbehaviour.sh
