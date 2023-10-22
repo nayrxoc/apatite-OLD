@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: nayrxoc/apatite
+  - label: nayrxoc/apatite-deck
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: base-apatite
+      - label: deck-apatite
