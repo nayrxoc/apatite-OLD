@@ -15,7 +15,7 @@ Apatite is a WIP OCI image that allows for the use of the [Phosh](https://github
 ### To-do
 
 - Power Button Behaviour for Steam Deck
-- Default Scaling
+- Default Orientation/Scaling
 - Waydroid on base-apatite
 - Game Mode on deck-apatite
 - Bazzite First Boot Experience on deck-apatite
