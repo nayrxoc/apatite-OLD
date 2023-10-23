@@ -17,9 +17,11 @@ Apatite is built from [ublue-os/main](https://github.com/ublue-os/main) for its 
 
 ### To-do
 
-- Waydroid on Base
-- Game Mode on Deck
-- Bazzite First Boot Experience on Deck
+- Power Button Behaviour for Steam Deck
+- Default Scaling
+- Waydroid on base-apatite
+- Game Mode on deck-apatite
+- Bazzite First Boot Experience on deck-apatite
 - Much more!!
 
 ### Installation
@@ -43,8 +45,8 @@ To rebase an existing Silverblue/Kinoite installation to the latest build:
   ```
 
 
-## Deck
-Apatite is built from [ublue-os/bazzite](https://github.com/ublue-os/bazzite/) for its deck build, using the same [Fedora](https://fedoraproject.org/) technology. This image provides a tailored experience made to closely resemble the [Steam Deck's](https://www.steamdeck.com) Game Mode feature alongside Phosh.
+## Bazzite
+Apatite is built from [ublue-os/bazzite](https://github.com/ublue-os/bazzite/) for its bazzite build, using the same [Fedora](https://fedoraproject.org/) technology. This image provides a tailored experience made to closely resemble the [Steam Deck's](https://www.steamdeck.com) Game Mode feature alongside Phosh.
 ### Installation 
 
 To rebase an existing Silverblue/Kinoite installation to the latest build:
