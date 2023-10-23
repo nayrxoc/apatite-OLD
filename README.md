@@ -1,6 +1,8 @@
 
 # Apatite
 [![build-ublue](https://github.com/nayrxoc/apatite/actions/workflows/build.yml/badge.svg)](https://github.com/nayrxoc/apatite/actions/workflows/build.yml)
+> **Warning**
+> This image is EARLY in development, along with it using an experimental version of Fedora 39
 
 Apatite is a WIP OCI image that allows for the use of the [Phosh](https://github.com/agx/phosh) DE. 
 
