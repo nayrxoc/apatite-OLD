@@ -4,14 +4,14 @@
 > **Warning**
 > This image is EARLY in development, along with it using an experimental version of Fedora 39
 
-Apatite is a WIP OCI image that allows for the use of the [Phosh](https://github.com/agx/phosh) DE. 
+Apatite is an OCI image that allows for the use of the [Phosh](https://github.com/agx/phosh) DE. 
 
 ### Features
 
 - Wayland Compositor
 - Phosh Desktop
 - uBlue First Boot Experience
-- All the other goodies you get with Fedora Cloud Native :)
+- All the other goodies you get with Fedora [Cloud Native](https://en.wikipedia.org/wiki/Cloud-native_computing) :)
 - [Bazzite](https://github.com/nayrxoc/apatite#bazzite) Build based on [ublue-os/bazzite](https://github.com/ublue-os/bazzite/)
 
 ### To-do
