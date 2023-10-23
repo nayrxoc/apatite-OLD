@@ -8,7 +8,3 @@ set -oue pipefail
 # Your code goes here.
 sudo systemctl enable phosh
 sudo echo "CHASSIS=handset" >> /etc/machine-info
-sudo mkdir /etc/phosh/
-sudo cp /usr/share/phosh/phoc.ini /etc/phosh/
-sudo echo "[output:DSI-1]
-scale = 1" >> /etc/phosh
