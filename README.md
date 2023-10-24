@@ -21,8 +21,10 @@ Apatite is an OCI image that allows for the use of the [Phosh](https://github.co
 - Waydroid on base-apatite
 - Game Mode on deck-apatite
 - Ubuntu Touch Store
+- PostMarketOS Distrobox
 - Bazzite First Boot Experience on deck-apatite
 - Nested Phosh
+- Arm64 Build
 - Much more!!
 
 ## Base
